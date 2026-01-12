@@ -17,9 +17,21 @@ const Hero = () => {
         </p>
 
         <div className="buttons">
-          <a href="/Vaishnavi_Vasam_Frontend_Developer.pdf" className="btn primary" download>
+          <a
+           href="/Portfolio/Vaishnavi_Vasam_Frontend_Developer.pdf"
+            download
+             className="btn primary"
+            >
             Download CV
-          </a>
+           </a>
+            <a
+             href="www.linkedin.com/in/vaishnavi-vasam-a754a036a"
+                  className="btn secondary"
+             target="_blank"
+            rel="noopener noreferrer"
+              >
+               LinkedIn
+             </a>
           <a href="#contact" className="btn secondary">
             Hire Me
           </a>
